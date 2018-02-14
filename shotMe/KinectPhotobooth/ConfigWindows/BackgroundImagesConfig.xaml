@@ -1,0 +1,22 @@
+﻿<Window x:Class="KinectPhotobooth.ConfigWindows.BackgroundImagesConfig"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KinectPhotobooth.ConfigWindows"
+        mc:Ignorable="d"
+        Title="BackgroundImagesConfig" Height="126.483" Width="528.814">
+    <Window.Resources>
+
+        <Style x:Key="TextBlockStyle" TargetType="{x:Type TextBlock}">
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="Foreground" Value="Purple" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <TextBox TextWrapping="Wrap" x:Name="txtBackgroundPath" VerticalAlignment="Top" Margin="0,46,105,0" HorizontalAlignment="Right" Width="350" Height="23"/>
+        <TextBlock  Style="{StaticResource TextBlockStyle}" Height="23"  VerticalAlignment="Top" Margin="170,10,171,0"><Run Text="Background Images:"/></TextBlock>
+        <Button Content="..." x:Name="btnBackgroundSelect" Click="btnBackgroundSelect_Click" Margin="0,46,25,0" HorizontalAlignment="Right" Width="46" Height="23" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

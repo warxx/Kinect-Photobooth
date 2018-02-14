@@ -1,0 +1,25 @@
+﻿<Window x:Class="KinectPhotobooth.AddFB"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KinectPhotobooth"
+        mc:Ignorable="d"
+        Title="Add Faacebook Group
+" Height="172.245" Width="406.78">
+    <Grid Margin="0,0,2,1">
+        <!--<TextBox Height="23" Margin="0,22,177,0" TextWrapping="Wrap" Text="" Name="txtFbGroup" VerticalAlignment="Top" HorizontalAlignment="Right" Width="120"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,23,319,0" TextWrapping="Wrap" Text="FB Group" VerticalAlignment="Top"/>-->
+        <TextBox Height="23" Margin="0,22,94,0" TextWrapping="Wrap" Text="" Name="imgPath" VerticalAlignment="Top" HorizontalAlignment="Right" Width="203"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,22,315,0" TextWrapping="Wrap" Text="Image:" VerticalAlignment="Top"/>
+        <Button Content="..." HorizontalAlignment="Right" Height="23" Margin="0,22,44,0" VerticalAlignment="Top" Width="36" Name="btnBrowse" Click="btnBrowse_Click" />
+
+        <TextBox Height="23" Margin="0,56,177,0" TextWrapping="Wrap" Name="txtFbUserName" VerticalAlignment="Top" HorizontalAlignment="Right" Width="120"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,57,315,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,89,315,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top"/>
+        <Button Content="Share" HorizontalAlignment="Right" Height="28" Margin="0,54,44,0" VerticalAlignment="Top" Width="88" Name="btnSave" Click="btnSave_Click" />
+        <Button Content="Cancel" HorizontalAlignment="Right" Height="28" Margin="0,88,44,0" VerticalAlignment="Top" Width="88" Name="btnCancel" Click="btnCancel_Click" />
+        <PasswordBox Height="23" Margin="0,89,177,0"  Name="txtFbPassword" VerticalAlignment="Top" HorizontalAlignment="Right" Width="120"/>
+
+    </Grid>
+</Window>

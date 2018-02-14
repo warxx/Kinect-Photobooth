@@ -1,0 +1,149 @@
+﻿<Window x:Class="KinectPhotobooth.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:k="http://schemas.microsoft.com/kinect/2014"
+        xmlns:commands="clr-namespace:KinectPhotobooth.Common"
+        Title="Kinect Photobooth" 
+        Width="1920" Height="1080" 
+        ResizeMode = "NoResize"
+        Loaded="MainWindow_Loaded"
+        Closing="MainWindow_Closing">
+    <Window.CommandBindings>
+        <CommandBinding Command="commands:CustomCommands.Exit" CanExecute="ExitCommand_CanExecute" Executed="ExitCommand_Executed" />
+        <CommandBinding Command="commands:CustomCommands.GoAdmin" CanExecute="GoAdminCommand_CanExecute" Executed="GoAdminCommand_Executed" />
+    </Window.CommandBindings>
+
+    <Window.Resources>
+        <SolidColorBrush x:Key="MediumGreyBrush" Color="#ff6e6e6e" />
+        <SolidColorBrush x:Key="KinectPurpleBrush" Color="#ff52318f" />
+        <SolidColorBrush x:Key="KinectBlueBrush" Color="#ff00BCF2" />
+        <Style TargetType="{x:Type Image}">
+            <Setter Property="SnapsToDevicePixels" Value="True" />
+        </Style>
+
+        <Style x:Key="TextBlockStyle" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="Foreground" Value="Purple" />
+        </Style>
+        <Style x:Key="CheckboxStyle" TargetType="CheckBox">
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="Foreground" Value="Purple" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+        </Style>
+
+        <Style TargetType="{x:Type Button}" x:Key="ScreenshotButton">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid>
+                            <StackPanel Orientation="Horizontal" Background="Transparent">
+                                <!--<TextBlock x:Name="ScreenshotText" Text="{TemplateBinding Content}" TextAlignment="Left"  VerticalAlignment="Center" Foreground="{StaticResource KinectPurpleBrush}" FontSize="15" />-->
+                                <Grid>
+                                    <Image x:Name="ScreenshotNormal" Source="Images\ScreenShot.png" Stretch="None" HorizontalAlignment="Center" />
+                                    <Image x:Name="ScreenshotHover" Source="Images\ScreenShotHober.png" Stretch="None" HorizontalAlignment="Center" Visibility="Collapsed" />
+                                </Grid>
+                            </StackPanel>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Visibility" Value="Collapsed" TargetName="ScreenshotNormal" />
+                                <Setter Property="Visibility" Value="Visible" TargetName="ScreenshotHover" />
+                                <!--<Setter Property="Foreground" Value="{StaticResource KinectBlueBrush}" TargetName="ScreenshotText" />-->
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="{x:Type Button}" x:Key="FacebookButton">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid>
+                            <StackPanel Orientation="Horizontal" Background="Transparent">
+                                <!--<TextBlock x:Name="ScreenshotText" Text="{TemplateBinding Content}" TextAlignment="Left"  VerticalAlignment="Center" Foreground="{StaticResource KinectPurpleBrush}" FontSize="15" />-->
+                                <Grid>
+                                    <Image x:Name="ScreenshotNormal" Source="Images\facebook.png" Stretch="None" HorizontalAlignment="Center" />
+                                </Grid>
+                            </StackPanel>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="AnnotationStyle" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="FontSize" Value="300"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+    </Window.Resources>
+
+    <k:KinectRegion x:Name="kinectRegion" >
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition />
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!--<Image Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2"   Source="Images\Logo.png" HorizontalAlignment="Left" Stretch="Uniform" Margin="0,12,0,3" />-->
+
+            <!--<Grid Name="CompositeImage" Grid.Row="1" Grid.Column="1" Margin="30,0">
+                <Image Name ="Backdrop" Stretch="UniformToFill" Source="{Binding Path=SelectedBackground.ImagePath}"/>
+                <Image Source="{Binding ImageSource}" Stretch="UniformToFill"/>
+                <Image Name ="Overdrop" Source="{Binding Path=SelectedOverlay.ImagePath}" Stretch="UniformToFill"/>
+                <Image Name="Countdown" Visibility="Hidden" />
+            </Grid>-->
+
+            <Grid Name="CompositeImage" Grid.Row="1">
+                <Image Name ="Backdrop" Stretch="Fill" />
+                <MediaElement Name ="BackVideoDrop" Stretch="Fill" Source="{Binding Path=SelectedBackground.ImagePath}" MediaEnded="BackVideoDrop_MediaEnded" Visibility="Hidden"/>
+                <Image Name="Persdrop" Source="{Binding ImageSource}" Stretch="UniformToFill"/>
+                <Image Name="Countdown" Visibility="Hidden" />
+            </Grid>
+
+            <Grid Name="InitOverlayImage" Grid.Row="1" >
+                <Image Name ="Overdrop" Source="{Binding Path=SelectedOverlay.ImagePath}" Stretch="Fill"/>
+            </Grid>
+
+            <Grid Name="ScreenshotGrid" Grid.Row="1" Visibility="Hidden">
+
+                <Image Name="Screenshotdrop" Source="{Binding ScreenshotPath}" Stretch="Fill" Margin="216,111,259,113" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Center" HorizontalAlignment="Center" Width="1439" Height="827">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-7.531"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image Name ="ScreenshotOver" Source="{Binding Path=SelectedEndOverlay.ImagePath}" Stretch="Fill"/>
+                <Button Name="FacebookButton" Style="{StaticResource FacebookButton}" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="100" Click="ScreenshotButton_Click" Height="100" Margin="70,630,1744,321" RenderTransformOrigin="0.5,0.5">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-11.473"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                </Button>
+            </Grid>
+
+            <!--<StackPanel Grid.Column="1" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Width="875"/>-->
+            <Button Name="ScreenshotButton" Style="{StaticResource ScreenshotButton}" Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Center" Click="ScreenshotButton_Click" Margin="0,945,0,10"/>
+        </Grid>
+    </k:KinectRegion>
+</Window>

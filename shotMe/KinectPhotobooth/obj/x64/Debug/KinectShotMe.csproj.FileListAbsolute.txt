@@ -1,0 +1,229 @@
+C:\pito\shotMe\bin\x64\Debug\Images\pointer.png
+C:\pito\shotMe\bin\x64\Debug\Images\EventLogo.png
+C:\pito\shotMe\bin\x64\Debug\KinectPhotobooth.exe.config
+C:\pito\shotMe\bin\x64\Debug\KinectPhotobooth.exe.manifest
+C:\pito\shotMe\bin\x64\Debug\KinectPhotobooth.application
+C:\pito\shotMe\bin\x64\Debug\KinectPhotobooth.exe
+C:\pito\shotMe\bin\x64\Debug\KinectPhotobooth.pdb
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\MainWindow.baml
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\MainWindow.g.cs
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\App.g.cs
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_Content.g.cs
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_MarkupCompile.cache
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.g.resources
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.Properties.Resources.resources
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csproj.GenerateResource.Cache
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.exe.manifest
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.application
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.exe
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.pdb
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_MarkupCompile.lref
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\Admin.baml
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\Admin.g.cs
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csprojResolveAssemblyReference.cache
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\AddFB.g.cs
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\AddFB.baml
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\CountDownConfig.g.cs
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\CountDownConfig.baml
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\BackgroundImagesConfig.g.cs
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\OutputImagesConfig.g.cs
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\BackgroundImagesConfig.baml
+C:\pito\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\OutputImagesConfig.baml
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\bin\x64\Debug\Images\pointer.png
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\bin\x64\Debug\Images\EventLogo.png
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\bin\x64\Debug\KinectPhotobooth.exe.config
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\bin\x64\Debug\KinectPhotobooth.exe.manifest
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\bin\x64\Debug\KinectPhotobooth.application
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\bin\x64\Debug\KinectPhotobooth.exe
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\bin\x64\Debug\KinectPhotobooth.pdb
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\MainWindow.baml
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\AddFB.g.cs
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\Admin.g.cs
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\BackgroundImagesConfig.g.cs
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\OutputImagesConfig.g.cs
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\MainWindow.g.cs
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\App.g.cs
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_Content.g.cs
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_MarkupCompile.cache
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_MarkupCompile.lref
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\AddFB.baml
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\Admin.baml
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\BackgroundImagesConfig.baml
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\OutputImagesConfig.baml
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.g.resources
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.Properties.Resources.resources
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csproj.GenerateResource.Cache
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.exe.manifest
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.application
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.exe
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.pdb
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\CountDownConfig.g.cs
+C:\Users\Ivan\Desktop\Kinect Project\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\CountDownConfig.baml
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\bin\x64\Debug\Images\pointer.png
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\bin\x64\Debug\Images\EventLogo.png
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\bin\x64\Debug\KinectPhotobooth.exe.config
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\bin\x64\Debug\KinectPhotobooth.exe.manifest
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\bin\x64\Debug\KinectPhotobooth.application
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\bin\x64\Debug\KinectPhotobooth.exe
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\bin\x64\Debug\KinectPhotobooth.pdb
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\MainWindow.baml
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\AddFB.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\Admin.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\BackgroundImagesConfig.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\OutputImagesConfig.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\CountDownConfig.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\MainWindow.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\App.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_Content.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_MarkupCompile.cache
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_MarkupCompile.lref
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\AddFB.baml
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\Admin.baml
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\BackgroundImagesConfig.baml
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\OutputImagesConfig.baml
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\CountDownConfig.baml
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.g.resources
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.Properties.Resources.resources
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csproj.GenerateResource.Cache
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.exe.manifest
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.application
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.exe
+C:\Users\Ivan\Desktop\Kinect Project v2\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.pdb
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\bin\x64\Debug\Images\pointer.png
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\bin\x64\Debug\Images\EventLogo.png
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\bin\x64\Debug\KinectPhotobooth.exe.config
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\bin\x64\Debug\KinectPhotobooth.exe.manifest
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\bin\x64\Debug\KinectPhotobooth.application
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\bin\x64\Debug\KinectPhotobooth.exe
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\bin\x64\Debug\KinectPhotobooth.pdb
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\MainWindow.baml
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\AddFB.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\Admin.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\BackgroundImagesConfig.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\OutputImagesConfig.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\CountDownConfig.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\MainWindow.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\App.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_Content.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_MarkupCompile.cache
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_MarkupCompile.lref
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\AddFB.baml
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\Admin.baml
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\BackgroundImagesConfig.baml
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\OutputImagesConfig.baml
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\CountDownConfig.baml
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.g.resources
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.Properties.Resources.resources
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csproj.GenerateResource.Cache
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.exe.manifest
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.application
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.exe
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.pdb
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\bin\x64\Debug\KinectPhotobooth.exe
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\bin\x64\Debug\Images\pointer.png
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\bin\x64\Debug\Images\EventLogo.png
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\bin\x64\Debug\KinectPhotobooth.exe.config
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\bin\x64\Debug\KinectPhotobooth.exe.manifest
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\bin\x64\Debug\KinectPhotobooth.application
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\bin\x64\Debug\KinectPhotobooth.exe
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\bin\x64\Debug\KinectPhotobooth.pdb
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\AddFB.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\Admin.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\BackgroundImagesConfig.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\OutputImagesConfig.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\CountDownConfig.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\Settings.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\MainWindow.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\App.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_Content.g.cs
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_MarkupCompile.cache
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_MarkupCompile.lref
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\AddFB.baml
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\Admin.baml
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\BackgroundImagesConfig.baml
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\OutputImagesConfig.baml
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\CountDownConfig.baml
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\Settings.baml
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\MainWindow.baml
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.g.resources
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.Properties.Resources.resources
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csproj.GenerateResource.Cache
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.exe.manifest
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.application
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.exe
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.pdb
+C:\Users\Ivan\Desktop\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csprojResolveAssemblyReference.cache
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\bin\x64\Debug\Images\pointer.png
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\bin\x64\Debug\Images\EventLogo.png
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\bin\x64\Debug\KinectPhotobooth.exe.config
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\bin\x64\Debug\KinectPhotobooth.exe.manifest
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\bin\x64\Debug\KinectPhotobooth.application
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\bin\x64\Debug\KinectPhotobooth.pdb
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csprojResolveAssemblyReference.cache
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\AddFB.g.cs
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\Admin.g.cs
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\BackgroundImagesConfig.g.cs
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\OutputImagesConfig.g.cs
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\CountDownConfig.g.cs
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\Settings.g.cs
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\MainWindow.g.cs
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\App.g.cs
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_Content.g.cs
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_MarkupCompile.cache
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_MarkupCompile.lref
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\AddFB.baml
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\Admin.baml
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\BackgroundImagesConfig.baml
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\OutputImagesConfig.baml
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\CountDownConfig.baml
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\Settings.baml
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\MainWindow.baml
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.g.resources
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.Properties.Resources.resources
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csproj.GenerateResource.Cache
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csproj.CoreCompileInputs.cache
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.exe.manifest
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.application
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.exe
+C:\Users\c0dyy_000\Desktop\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.pdb
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csprojResolveAssemblyReference.cache
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\AddFB.g.cs
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\Admin.g.cs
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\BackgroundImagesConfig.g.cs
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\OutputImagesConfig.g.cs
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\CountDownConfig.g.cs
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\Settings.g.cs
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\MainWindow.g.cs
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\App.g.cs
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_Content.g.cs
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_MarkupCompile.cache
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth_MarkupCompile.lref
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\AddFB.baml
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\Admin.baml
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\BackgroundImagesConfig.baml
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\OutputImagesConfig.baml
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\CountDownConfig.baml
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\ConfigWindows\Settings.baml
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\MainWindow.baml
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.exe
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.pdb
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\bin\x64\Debug\Images\pointer.png
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\bin\x64\Debug\Images\EventLogo.png
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\bin\x64\Debug\KinectPhotobooth.exe.config
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\bin\x64\Debug\KinectPhotobooth.exe.manifest
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\bin\x64\Debug\KinectPhotobooth.application
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\bin\x64\Debug\KinectPhotobooth.exe
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\bin\x64\Debug\KinectPhotobooth.pdb
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.g.resources
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.Properties.Resources.resources
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csproj.GenerateResource.Cache
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectShotMe.csproj.CoreCompileInputs.cache
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.exe.manifest
+C:\Projects\Kinect Project v2 - newest version\Kinect-Photobooth\shotMe\KinectPhotobooth\obj\x64\Debug\KinectPhotobooth.application
