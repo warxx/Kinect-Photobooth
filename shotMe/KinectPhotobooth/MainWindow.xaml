@@ -114,7 +114,7 @@
             </Grid>
 
             <Grid Name="InitOverlayImage" Grid.Row="1" >
-                <Image Name ="Overdrop" Source="{Binding Path=SelectedOverlay.ImagePath}" Stretch="Fill"/>
+                <Image Name ="Overdrop" Stretch="Fill"/>
             </Grid>
 
             <Grid Name="ScreenshotGrid" Grid.Row="1" Visibility="Hidden">
@@ -129,7 +129,7 @@
                         </TransformGroup>
                     </Image.RenderTransform>
                 </Image>
-                <Image Name ="ScreenshotOver" Source="{Binding Path=SelectedEndOverlay.ImagePath}" Stretch="Fill"/>
+                <Image Name ="ScreenshotOver" Stretch="Fill"/>
                 <Button Name="FacebookButton" Style="{StaticResource FacebookButton}" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="100" Click="ScreenshotButton_Click" Height="100" Margin="70,630,1744,321" RenderTransformOrigin="0.5,0.5">
                     <Button.RenderTransform>
                         <TransformGroup>

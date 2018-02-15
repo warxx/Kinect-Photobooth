@@ -48,6 +48,20 @@ namespace KinectPhotobooth.ViewModels
             }
         }
 
+        private bool _isLandscape;
+
+        public bool IsLandscape
+        {
+            get
+            {
+                return _isLandscape;
+            }
+            set
+            {
+                _isLandscape = value;
+            }
+        }
+
         private string _backgroundType;
 
         public string BackgroundType
@@ -397,8 +411,6 @@ namespace KinectPhotobooth.ViewModels
             _BackgroundDistance = 4000;
             _MinBackgroundDistance = 500;
 
-
-
             //Backgrounds.Add(new BackgroundModel() { Name = "Beach", ImagePath = "Images/Backgrounds/Beach.jpg" });
             //Backgrounds.Add(new BackgroundModel() { Name = "Building", ImagePath = "Images/Backgrounds/FromBuilding.jpg" });
             //Backgrounds.Add(new BackgroundModel() { Name = "Cliff Jump", ImagePath = "Images/Backgrounds/Cliff-jump.jpg" });
@@ -615,12 +627,18 @@ namespace KinectPhotobooth.ViewModels
             };
         }
 
-        public BitmapImage ResizeImage(string path, int width, int height)
+        public BitmapImage ResizeImage(string path, int width, int height, bool isLandscape)
         {
             BitmapImage image = new BitmapImage();
             image.BeginInit();
             image.DecodePixelHeight = width;
             image.DecodePixelWidth = height;
+
+            if (!isLandscape)
+            {
+                image.Rotation = Rotation.Rotate270;
+            }
+
             image.UriSource = new Uri(path);
             image.EndInit();
 

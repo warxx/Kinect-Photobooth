@@ -234,6 +234,15 @@ namespace KinectPhotobooth
                 Checkbox_Videos.IsChecked = true;
             }
 
+            if (this.settings.IsLandscape)
+            {
+                Landscape.IsChecked = true;
+            }
+            else
+            {
+                Portrait.IsChecked = true;
+            }            
+
             //    ResizeSelectedImages();
 
             DataContext = DataContainer.ViewModel;
@@ -640,11 +649,22 @@ namespace KinectPhotobooth
 
                 if(type == "jpg" || type == "png")
                 {
-                    var resizedImage = DataContainer.ViewModel.ResizeImage(bgModel.ImagePath, 600, 600);
-                    Backdrop.Source = resizedImage;
+                    if (DataContainer.ViewModel.IsLandscape)
+                    {
+                        var resizedImage = DataContainer.ViewModel.ResizeImage(bgModel.ImagePath, 600, 600, true);
+                        Backdrop.Source = resizedImage;
 
-                    var resizedImage2 = DataContainer.ViewModel.ResizeImage(bgModel.ImagePath, 200, 200);
-                    BackgroundDrop.Source = resizedImage;
+                        var resizedImage2 = DataContainer.ViewModel.ResizeImage(bgModel.ImagePath, 200, 200, true);
+                        BackgroundDrop.Source = resizedImage;
+                    }
+                    else
+                    {
+                        var resizedImage = DataContainer.ViewModel.ResizeImage(bgModel.ImagePath, 600, 600, false);
+                        Backdrop.Source = resizedImage;
+
+                        var resizedImage2 = DataContainer.ViewModel.ResizeImage(bgModel.ImagePath, 200, 200, false);
+                        BackgroundDrop.Source = resizedImage;
+                    }
                 }
 
                 DataContainer.ViewModel.SelectedBackground = bgModel;               
@@ -656,8 +676,17 @@ namespace KinectPhotobooth
             if (e.AddedItems.Count != 0)
             {
                 var overlayModel = e.AddedItems[0] as OverlayModel;
-                var resizedImage = DataContainer.ViewModel.ResizeImage(overlayModel.ImagePath, 200, 200);
-                InitOverlayDrop.Source = resizedImage;
+
+                if (DataContainer.ViewModel.IsLandscape)
+                {
+                    var resizedImage = DataContainer.ViewModel.ResizeImage(overlayModel.ImagePath, 200, 200, true);
+                    InitOverlayDrop.Source = resizedImage;
+                }
+                else
+                {
+                    var resizedImage = DataContainer.ViewModel.ResizeImage(overlayModel.ImagePath, 200, 200, false);
+                    InitOverlayDrop.Source = resizedImage;
+                }
 
                 DataContainer.ViewModel.SelectedOverlay = overlayModel;
             }
@@ -668,8 +697,17 @@ namespace KinectPhotobooth
             if (e.AddedItems.Count != 0)
             {
                 var overlayModel = e.AddedItems[0] as OverlayModel;
-                var resizedImage = DataContainer.ViewModel.ResizeImage(overlayModel.ImagePath, 200, 200);
-                EndOverlayDrop.Source = resizedImage;
+
+                if (DataContainer.ViewModel.IsLandscape)
+                {
+                    var resizedImage = DataContainer.ViewModel.ResizeImage(overlayModel.ImagePath, 200, 200, true);
+                    EndOverlayDrop.Source = resizedImage;
+                }
+                else
+                {
+                    var resizedImage = DataContainer.ViewModel.ResizeImage(overlayModel.ImagePath, 200, 200, false);
+                    EndOverlayDrop.Source = resizedImage;
+                }
 
                 DataContainer.ViewModel.SelectedEndOverlay = overlayModel;
             }
@@ -828,21 +866,72 @@ namespace KinectPhotobooth
             }
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void LandscapeCheckBox_Checked(object sender, RoutedEventArgs e)
         {
+            Portrait.IsChecked = false;
+            Portrait.IsEnabled = true;
+
+            Landscape.IsEnabled = false;
+
+            DataContainer.ViewModel.IsLandscape = true;
+
+            if (DataContainer.ViewModel.SelectedBackground != null)
+            {
+                var resizedBackground = DataContainer.ViewModel.ResizeImage(DataContainer.ViewModel.SelectedBackground.ImagePath, 200, 200, true);
+                BackgroundDrop.Source = resizedBackground;
+
+                var resizedBackground2 = DataContainer.ViewModel.ResizeImage(DataContainer.ViewModel.SelectedBackground.ImagePath, 600, 600, true);
+                Backdrop.Source = resizedBackground2;
+            }
+            
+            if(DataContainer.ViewModel.SelectedOverlay != null)
+            {
+                var resizedOverlay = DataContainer.ViewModel.ResizeImage(DataContainer.ViewModel.SelectedOverlay.ImagePath, 200, 200, true);
+                InitOverlayDrop.Source = resizedOverlay;
+            }
+
+            if (DataContainer.ViewModel.SelectedEndOverlay != null)
+            {
+                var resizedEndOverlay = DataContainer.ViewModel.ResizeImage(DataContainer.ViewModel.SelectedEndOverlay.ImagePath, 200, 200, true);
+                EndOverlayDrop.Source = resizedEndOverlay;
+            }
+
+        }
+
+        private void PortraitCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            Landscape.IsChecked = false;
+            Landscape.IsEnabled = true;
+
+            Portrait.IsEnabled = false;
+
+            DataContainer.ViewModel.IsLandscape = false;
+
+            if(DataContainer.ViewModel.SelectedBackground != null)
+            {
+                var resizedBackground = DataContainer.ViewModel.ResizeImage(DataContainer.ViewModel.SelectedBackground.ImagePath, 200, 200, false);
+                BackgroundDrop.Source = resizedBackground;
+
+                var resizedBackground2 = DataContainer.ViewModel.ResizeImage(DataContainer.ViewModel.SelectedBackground.ImagePath, 600, 600, false);
+                Backdrop.Source = resizedBackground2;
+            }
+
+            if(DataContainer.ViewModel.SelectedOverlay != null)
+            {
+                var resizedOverlay = DataContainer.ViewModel.ResizeImage(DataContainer.ViewModel.SelectedOverlay.ImagePath, 200, 200, false);
+                InitOverlayDrop.Source = resizedOverlay;
+            }
+            
+            if(DataContainer.ViewModel.SelectedEndOverlay != null)
+            {
+                var resizedEndOverlay = DataContainer.ViewModel.ResizeImage(DataContainer.ViewModel.SelectedEndOverlay.ImagePath, 200, 200, false);
+                EndOverlayDrop.Source = resizedEndOverlay;
+            }         
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
-            //var selectedBackground = DataContainer.ViewModel.SelectedBackground;
-            //var selectedOverlay = DataContainer.ViewModel.SelectedOverlay;
-            //var selectedEndOverlay = DataContainer.ViewModel.SelectedEndOverlay;
-            //var backgroundDistance = DataContainer.ViewModel.BackgroundDistance;
-
-            //var mw = new MainWindow();
             this.Close();
-            //mw.AdminInfo(selectedBackground, selectedOverlay, selectedEndOverlay, backgroundDistance);
-            //mw.Show();
         }
 
         private void BackVideoDrop_MediaEnded(object sender, RoutedEventArgs e)
@@ -850,21 +939,27 @@ namespace KinectPhotobooth
             BackVideoDrop.Position = TimeSpan.Zero;
         }
 
-        private void BackgroundChanded_Checked(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
         private void ResizeSelectedImages()
         {
             var overlayPath = DataContainer.ViewModel.SelectedOverlay.ImagePath;
             var overlayEndPath = DataContainer.ViewModel.SelectedEndOverlay.ImagePath;
-            
-            var resizedOverlayImage = DataContainer.ViewModel.ResizeImage(overlayPath, 200, 200);
-            var resizedEndOverlayImage = DataContainer.ViewModel.ResizeImage(overlayEndPath, 200, 200);
 
-            InitOverlayDrop.Source = resizedOverlayImage;
-            EndOverlayDrop.Source = resizedEndOverlayImage;
+            if(DataContainer.ViewModel.IsLandscape)
+            {
+                var resizedOverlayImage = DataContainer.ViewModel.ResizeImage(overlayPath, 200, 200, true);
+                var resizedEndOverlayImage = DataContainer.ViewModel.ResizeImage(overlayEndPath, 200, 200, true);
+
+                InitOverlayDrop.Source = resizedOverlayImage;
+                EndOverlayDrop.Source = resizedEndOverlayImage;
+            }
+            else
+            {
+                var resizedOverlayImage = DataContainer.ViewModel.ResizeImage(overlayPath, 200, 200, false);
+                var resizedEndOverlayImage = DataContainer.ViewModel.ResizeImage(overlayEndPath, 200, 200, false);
+
+                InitOverlayDrop.Source = resizedOverlayImage;
+                EndOverlayDrop.Source = resizedEndOverlayImage;
+            }                   
         }
     }
 }

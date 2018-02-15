@@ -285,6 +285,11 @@
                 <CheckBox Name="Checkbox_Images" Style="{StaticResource CheckboxStyle}" Margin="345,0,141,0" Content="Images" Checked="ImagesCheckBox_Checked"/>
                 <CheckBox Name="Checkbox_Videos" Style="{StaticResource CheckboxStyle}" Margin="450,0,40,0" Content="Videos" Checked="VideosCheckBox_Checked"/>
             </Grid>
+
+            <Grid Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left">
+                <CheckBox Name="Landscape" Style="{StaticResource CheckboxStyle}" Content="Landscape" Checked="LandscapeCheckBox_Checked" Margin="0,0,90,0"/>
+                <CheckBox Name="Portrait" Style="{StaticResource CheckboxStyle}" Margin="130,0,0,0" Content="Portrait" Checked="PortraitCheckBox_Checked"/>
+            </Grid>
             <StackPanel Orientation="Vertical" Grid.Column="0" Grid.Row="1" >
                 <TextBlock FontSize="10" Text="{Binding Path=BackgroundDistance, Mode=OneWay}"></TextBlock>
                 <Slider x:Name="BackgroundDistanceControl"  Value="{Binding Path=BackgroundDistance, Mode=TwoWay}"  Orientation="Vertical" Minimum="100" Maximum="4500"  Height="450"/>

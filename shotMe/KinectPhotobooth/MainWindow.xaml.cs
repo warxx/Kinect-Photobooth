@@ -448,7 +448,6 @@ namespace KinectPhotobooth
             
             using (DrawingContext dc = dv.RenderOpen())
             {
-                
                 ImageBrush mainImageBrush = new ImageBrush(mainImage);
                 mainImageBrush.Opacity = 1.0;
                 dc.DrawRectangle(mainImageBrush, null, new Rect(new Point(), new Size(width, height)));
@@ -812,13 +811,15 @@ namespace KinectPhotobooth
             this._vm.MinBackgroundDistance = Common.DataContainer.ViewModel.MinBackgroundDistance;
             this._vm.OverlayInitDelay = Common.DataContainer.ViewModel.OverlayInitDelay;
             this._vm.IsImagesChecked = Common.DataContainer.ViewModel.IsImagesChecked;
+            this._vm.IsLandscape = Common.DataContainer.ViewModel.IsLandscape;
 
             this.settings = new SettingsModel()
             {
                 BackgroundDistance = this._vm.BackgroundDistance,
                 MinBackgroundDistance = this._vm.MinBackgroundDistance,
                 OverlayInitDelay = this._vm.OverlayInitDelay,
-                IsImagesChecked = this._vm.IsImagesChecked
+                IsImagesChecked = this._vm.IsImagesChecked,
+                IsLandscape = this._vm.IsLandscape
             };
 
             string jsonObj = JsonConvert.SerializeObject(settings);
@@ -832,6 +833,9 @@ namespace KinectPhotobooth
             if (this._vm.SelectedBackground != null)
             {
                 var imagePath = this._vm.SelectedBackground.ImagePath;
+                var overlayPath = this._vm.SelectedOverlay.ImagePath;
+                var endOverlayPath = this._vm.SelectedEndOverlay.ImagePath;
+
                 string type = this._vm.SelectedBackground.ImagePath.Substring(imagePath.Length - 3);
 
                 if (type == "mp4" || type == "wmv")
@@ -844,8 +848,18 @@ namespace KinectPhotobooth
                     BackVideoDrop.Visibility = Visibility.Hidden;
                     Backdrop.Visibility = Visibility.Visible;
 
-                    var resizedImage = DataContainer.ViewModel.ResizeImage(imagePath, 1920, 1080);
-                    Backdrop.Source = resizedImage;
+                    if (this._vm.IsLandscape)
+                    {
+                        Backdrop.Source = DataContainer.ViewModel.ResizeImage(imagePath, 1920, 1080, true);
+                        Overdrop.Source = DataContainer.ViewModel.ResizeImage(overlayPath, 1920, 1080, true);
+                        ScreenshotOver.Source = DataContainer.ViewModel.ResizeImage(endOverlayPath, 1920, 1080, true);
+                    }
+                    else
+                    {
+                        Backdrop.Source = DataContainer.ViewModel.ResizeImage(imagePath, 1920, 1080, false);
+                        Overdrop.Source = DataContainer.ViewModel.ResizeImage(overlayPath, 1920, 1080, false);
+                        ScreenshotOver.Source = DataContainer.ViewModel.ResizeImage(endOverlayPath, 1920, 1080, false);
+                    }                   
                 }
             }
         }

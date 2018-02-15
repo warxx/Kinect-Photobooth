@@ -17,5 +17,7 @@
         public int OverlayInitDelay { get; set; }
 
         public bool IsImagesChecked { get; set; }
+
+        public bool IsLandscape { get; set; }
     }
 }
